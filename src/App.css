@@ -9,12 +9,27 @@
     --max-width-hero-text: 35ch;
     --margin-top-h1: 2.25rem; /* Equivalent to 36px */
     --font-size-p: 1rem; /* Equivalent to 16px */
+    --font-size-p-card: 0.75rem; /* Equivalent to 12px */
     --font-size-h1: 2.25rem; /* Equivalent to 36px */
     --margin-bottom: 1rem; /* Equivalent to 16px */
+    --font-size-h2: 0.75rem; /* Equivalent to 12px */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --margin-top-card: 3.125rem; /* Equivalent to 50px */
+    --card-image-width: 35%;
+    --border-radius: 0.5625rem; /* Equivalent to 9px */
+    --column-gap: 0.3125rem; /* Equivalent to 5px */
+    --height-star: 0.875rem; /* Equivalent to 14px */
+    --color-gray: #918E9B;
 }
 
 #app {
     width: 34.375rem; /* Equivalent to 550px */
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-normal);
 }
 
 .navbar {
@@ -28,21 +43,21 @@
 }
 
 .hero img {
-    margin-top: 26px;
-    max-width: 400px;
+    margin-top: var(--margin-top-hero);
+    max-width: var(--max-width-hero-img);
     align-self: center;
 }
 
 .hero-text p {
     max-width: var(--max-width-hero-text);
     font-size: var(--font-size-p);
-    font-weight: 300;
+    font-weight: var(--font-weight-normal);
 }
 
 .hero-text h1 {
     margin-top: var(--margin-top-h1);
     font-size: var(--font-size-h1);
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
 }
 
 .hero-text h1, p {
@@ -51,29 +66,29 @@
 }
 
 .card {
-    font-size: 12px;
-    margin-top: 50px;
+    font-size: var(--font-size-p-card);
+    margin-top: var(--margin-top-card);
 }
 
 .card--image {
-    width: 35%;
-    border-radius: 9px;
+    width: var(--card-image-width);
+    border-radius: var(--border-radius);
 }
 
 .card--stats {
     display: flex;
     align-items: center;
-    column-gap: 5px;
+    column-gap: var(--column-gap);
 }
 
 .card--star {
-    height: 14px;
+    height: var(--height-star);
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
 }
 
 .gray {
-    color: #918E9B;
+    color: var(--color-gray);
 }
