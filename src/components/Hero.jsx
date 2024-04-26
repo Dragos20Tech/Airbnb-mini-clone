@@ -1,5 +1,5 @@
 import React from "react"
-import groupImg from '../assets/group-logo.png';
+import groupImg from '../../public/assets/group-logo.png';
 
 export function Hero(){
     return (

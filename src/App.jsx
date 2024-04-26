@@ -1,7 +1,7 @@
 import { Navbar } from "./components/Navbar"
 import { Hero } from "./components/Hero"
 import { Card } from "./components/Card"
-import KatieZaferes from "./assets/katie-zaferes.png"
+import KatieZaferes from "../public/assets/katie-zaferes.png"
 import './App.css'
 
 function App() {
