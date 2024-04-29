@@ -1,6 +1,8 @@
 import KatieZaferes from "../public/assets/katie-zaferes.png"
 import WeddingPhoto from "../public/assets/wedding-photography.png"
 import MountainBike from "../public/assets/mountain-bike.png"
+import Bobby from "../public/assets/Bobby_Fischer_1972.jpg"
+import Wellcode from "../public/assets/Petru.png"
 
 export default [
     {
@@ -10,7 +12,7 @@ export default [
         price: 136,
         coverImg: KatieZaferes,
         stats: {
-            rating: 5.0,
+            rating: 4.5,
             reviewCount: 6
         },
         location: "Online",
@@ -36,10 +38,36 @@ export default [
         price: 50,
         coverImg: MountainBike,
         stats: {
-            rating: 4.8,
+            rating: 4.2,
             reviewCount: 2
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Learn Chess with Bobby Fischer",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+        price: 86,
+        coverImg: Bobby,
+        stats: {
+            rating: 4.5,
+            reviewCount: 13
+        },
+        location: "USA",
+        openSpots: 4,
+    },
+    {
+        id: 5,
+        title: "Learn Programming Wellcode",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+        price: 1000,
+        coverImg: Wellcode,
+        stats: {
+            rating: 4.3,
+            reviewCount: 9
+        },
+        location: "Romania",
+        openSpots: 1,
     }
 ]

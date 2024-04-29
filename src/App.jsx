@@ -21,7 +21,9 @@ function App() {
         <div id="app">
             <Navbar />
             <Hero />
-            {cards}
+            <section className="cards-list">
+                {cards}
+            </section>
         </div>
     )
 }
