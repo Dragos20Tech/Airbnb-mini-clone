@@ -1,8 +1,6 @@
-# React + Vite
+# React Airbnb Mini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I developed this application based on [**Bob Ziroll's course on Scrimba**](https://scrimba.com/learn/learnreact), where I gained foundational insights into React. Through this course, I delved into fundamental concepts including understanding React's purpose, leveraging ***components*** effectively, managing ***props***, and implementing ***conditional rendering***.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" width="144" height="72" alt="React" /></a> &nbsp;
